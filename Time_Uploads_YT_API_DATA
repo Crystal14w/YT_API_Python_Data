@@ -34,8 +34,9 @@ def get_videos(channel_id, part='id,snippet', limit=10):
     return videos
 
 def parse_publish_timestamp(video):
-    return (datetime.strptime(video['snippet']['publishedAt'], "%Y-%m-%dT%H:%M:%SZ")
-            + timedelta(hours=5, minutes=30))
+    return (datetime.strptime(video['snippet']['publishedAt'], "%Y-%m-%dT%H:%M:%SZ"))
+#Add timedelta for GMT timezone
+#            + timedelta(hours=5, minutes=30))
 
 
 channel_id = get_channel('pewdiepie')['id']['channelId']
