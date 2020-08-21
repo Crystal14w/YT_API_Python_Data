@@ -30,7 +30,7 @@ Modify the timezone for the timedelta.
 
 ### Data Visualizations
 
-Sample data visualization of Pewdiepie, Techlead and Linus Tips Channel Upload Hours.
+Sample data visualization of Pewdiepie, Techlead and Linus Tech Tips Channel Upload Hours.
 
 ![](Images/Figure_1.png)
 ![](Images/Figure_2.png)
